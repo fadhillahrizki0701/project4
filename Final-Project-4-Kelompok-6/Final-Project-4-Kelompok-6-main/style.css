@@ -1,0 +1,63 @@
+body{
+    background-color: #2E86C1;
+}
+
+.background{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    padding-top: 40px;
+}
+.inputan{
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input_kota{
+    border: none;
+    border-radius: 5px;
+    color: black;
+    width: 250px;
+    padding: 7px 10px 10px 10px;
+}
+.button_search{
+    padding: 7px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #c12e2e;
+    margin-left: 10px;
+}
+.button_search:hover{
+    transform: scale(1.1);
+}
+h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.row{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-text{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card{
+    border-radius: 20px;
+    margin: 5px;
+}
+.icon_weather{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

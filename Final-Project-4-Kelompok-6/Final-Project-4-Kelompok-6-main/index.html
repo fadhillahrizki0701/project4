@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finale Project 4</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container" style="background-image: url(./gambar/background.jpg); border-radius: 40px;">
+            <div class="inputan">
+                <input type="text" class="input_kota" id="input" placeholder="Enter the name of the city">
+                <button class="button_search" id="btn_search" type="button">Search</button>
+            </div>
+            <div class="waktu">
+                <h3 id="tampil">
+                    
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="icon_weather">
+                            <img src="./gambar/city.png" width="140px" height="150px">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"><b>City</b></h5>
+                          <p class="card-text"><b id="city">...</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="icon_weather">
+                            <img src="./gambar/condition.png" width="140px" height="150px">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Condition</b></h5>
+                          <p class="card-text"><b id="condition">...</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="icon_weather">
+                            <img src="./gambar/temperatur.png" width="140px" height="150px">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Temperatures</b></h5>
+                          <p class="card-text"><b id="temperature">...</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="icon_weather">
+                            <img src="./gambar/wind speed.png" width="140px" height="150px">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Wind Speed</b></h5>
+                          <p class="card-text"><b id="wind">...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
